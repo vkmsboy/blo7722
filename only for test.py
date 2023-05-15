@@ -3,7 +3,11 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
 from pyrogram import enums
+import config
 
+API_ID = config.API_ID
+API_HASE = config.API_HASH
+TOKEN = config.TOKEN
 # Initialize the bot with your API ID and API hash
 app = Client("my_bot", api_id=API_ID, api_hash="API_HASE", bot_token="TOKEN")
 
