@@ -90,7 +90,7 @@ async def message_handler(client, message):
         # Send the message to the user
         await message.reply_text(message_text)
     # Check if the user has sent the required information for "Info 2"
-    elif user_choice == "for_info" and message.text.startswith("Poster -") and "Name:" in message.text and "Release info:" in message.text and "Language:" in message.text and "Quality:" in message.text and "Mb/gb size:" in message.text and "Genre:" in message.text and "Story -" in message.text and "Link 1 -" in message.textand and "480p Link -" in message.text and "720p Link -" in message.text and "1080p Link -" in message.text:
+    elif user_choice == "for_info" and message.text.startswith("Poster -") and "Name:" in message.text and "Release info:" in message.text and "Language:" in message.text and "Quality:" in message.text and "Mb/gb size:" in message.text and "Genre:" in message.text and "Story -" in message.text and "480p Link -" in message.text and "720p Link -" in message.text and "1080p Link -" in message.text and "Link 1 -" in message.textand:
      # Split the message into lines
      lines = message.text.split("\n")
     # Initialize the variables
