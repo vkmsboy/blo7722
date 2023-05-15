@@ -9,7 +9,7 @@ API_ID = API_ID
 API_HASH = API_HASH
 TOKEN = TOKEN
 # Initialize the bot with your API ID and API hash
-app = Client("my_bot", api_id=API_ID, api_hash=API_HASE, bot_token=TOKEN)
+app = Client("my_bot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 
 item_2 = "<"
 item_1 = ">"
