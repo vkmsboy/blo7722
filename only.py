@@ -3,7 +3,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors.exceptions.bad_request_400 import MessageTooLong
 from pyrogram import enums
-from config import config API_ID,API_HASE,TOKEN
+from config import API_ID,API_HASE,TOKEN
 
 API_ID = API_ID
 API_HASE = API_HASH
